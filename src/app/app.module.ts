@@ -9,11 +9,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
+import { View1Component } from './view1/view1.component';
 
 const appRoutes:Routes=[
   {
     path:"",component:AddComponent
   },
+  {
+    path:"/view",component:View1Component
+  }
   
 ]
 @NgModule({
