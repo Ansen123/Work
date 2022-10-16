@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AddComponent } from './add/add.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { ViewComponent } from './view/view.component';
 const appRoutes:Routes=[
   {
     path:"",component:AddComponent
@@ -16,7 +17,8 @@ const appRoutes:Routes=[
   declarations: [
     AppComponent,
     NavbarComponent,
-    AddComponent
+    AddComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
