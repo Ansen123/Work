@@ -13,10 +13,14 @@ import { HttpClientModule } from '@angular/common/http';
 const appRoutes:Routes=[
   {
     path:"",component:AddComponent
+  },
+  {
+    path:"/view",component:View1Component
   }
 ]
 @NgModule({
   declarations: [
+    
     AppComponent,
     NavbarComponent,
     AddComponent,
