@@ -7,16 +7,19 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AddComponent } from './add/add.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-
 import { HttpClientModule } from '@angular/common/http';
 import { View1Component } from './view1/view1.component';
+import { AddcouresComponent } from './addcoures/addcoures.component';
 
 const appRoutes:Routes=[
   {
     path:"",component:AddComponent
   },
   {
-    path:"/view",component:View1Component
+    path:"view",component:View1Component
+  },
+  {
+    path:"add",component:AddcouresComponent
   }
   
 ]
@@ -26,6 +29,8 @@ const appRoutes:Routes=[
     AppComponent,
     NavbarComponent,
     AddComponent,
+    View1Component,
+    AddcouresComponent
 
  
   ],
