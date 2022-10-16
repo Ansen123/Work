@@ -21,7 +21,7 @@ export class AddComponent implements OnInit {
   blood=""
   dob=""
 
-
+status:boolean=false
   readvalues=()=>{
     let data={
 
@@ -39,6 +39,20 @@ export class AddComponent implements OnInit {
       "dob":this.dob,
     }
     console.log(data)
+    alert("Data Added")
+    this.employeecode=""
+  this.employee=""
+  this.designation=""
+  this.gender=""
+  this.company_name=""
+  this.salary=""
+  this.address=""
+  this.number=""
+  this.email=""
+  this.experiance=""
+  this.blood=""
+  this.dob=""
+this.status=true
 
   
 }
