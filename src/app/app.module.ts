@@ -14,7 +14,8 @@ import { AddComponent } from './add/add.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+     
   ],
   providers: [],
   bootstrap: [AppComponent]
